@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package PingPong;
 
 import java.awt.Color;
@@ -16,10 +11,7 @@ import java.awt.event.KeyListener;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-/**
- *
- * @author Tunkis
- */
+
 public class Play extends JPanel implements ActionListener, KeyListener {
 
     public bricks map;
@@ -150,7 +142,7 @@ public class Play extends JPanel implements ActionListener, KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        //To change body of generated methods, choose Tools | Templates.
+        
     }
 
 }
